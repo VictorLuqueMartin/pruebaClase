@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+*{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: 0px 20px 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+header{
+    height: 20vh;
+    width: 100%;
+}
+.top{
+    height: 12vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.logo{
+    height: 150px;
+    position: absolute;
+    left: 120px;
+    margin: 15px 0px 10px 40px;
+}
+.banner{
+    width: 400px;
+}
+.titulo{
+    position: absolute;
+    right: 100px;
+    margin: 50px 0 0 0;
+    font-size: 3em;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul a{
+    color: black;
+    margin: 0 40px 0 40px;
+    text-decoration: none;
+    background-image: linear-gradient(#885DE8, #885DE8);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+nav ul a:hover, nav ul a:focus{
+    background-size: 100% 2px;
+}
+.title-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0 0 0;
+    height: 10vh;
+}
+.title-section h1{
+    font-size: 4em;
+    color: rgb(64, 0, 107);
+}
+section{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(white, rgb(235, 235, 235),rgb(230, 230, 230),rgb(225, 225, 225), rgb(220, 220, 220));
+
+}
+.trescajas{
+    height: 400px;
+    width: 350px;
+    box-shadow: black 2px 2px 5px 5px;
+    margin: 0 50px 0 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.imgtres{
+    height: 150px;
+    margin: 10px 0 10px 0;
+    border-radius: 30px;
+}
+.titulotres{
+    font-size: 2.5em;
+    padding-bottom: 15px;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 130px;
+}
+.social{
+    margin: 0px 15px 0 15px;
+    color: gray;
+    transition: 1s ease;
+
+}
+.social:hover, .social:focus{
+    color:white !important;
+    cursor: pointer;
+}
+.linea{
+    width: 1000px;
+    height: 1px;
+    background-color: rgb(116, 116, 116);
+}
+.text-footer{
+    color: rgb(102, 102, 102);
+    position: absolute;
+    right: 150px;
+}

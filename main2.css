@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+*{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: 0px 20px 0px 20px;
+}
+#navbar {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+}
+
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style the logo */
+#navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+/* Links on mouse-over */
+#navbar a:hover {
+    background-color: #480078;
+    color: white;
+}
+
+/* Style the active/current link */
+#navbar a.active {
+    background-color: #7500c4d8;
+    color: white;
+}
+
+/* Display some links to the right */
+#navbar-right {
+    float: right;
+    margin: 0px 40px 0 0;
+}
+header{
+    height: 90vh;
+    width: 100%;
+    background: url("img/proyecto.jpg") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; 
+}
+.titles{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+
+}
+.titles h1{
+    color: white;
+    margin: 50px 0px 20px 0px;
+    font-size: 4em;
+}
+.titles h2{
+    color: #cacaca;
+}
+section{
+    background: rgb(17, 17, 17);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+section h1{
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+.contenedor-left{
+    display: inline-block;
+    text-align: center;
+}
+.contenedor-left img{
+    margin: 40px 0 0 0;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+.contenedor-center{
+    margin: 65px 0px 0 0;
+    height: 300px;
+    width: 100%;
+}
+.doscajas{
+    display: flex;
+    margin: 30px 0px 80px 90px;
+    width: 600px;
+}
+.doscajasp{
+    color: white;
+    width: 600px;
+}
+.doscajasimg{
+    height: 70px;
+}
+.contenedor-right{
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding: 0 0 0 50px;
+}
+.contenedor-right img{
+    margin: 40px 0 0 0;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+.contenedor-right h1{
+    padding: 0 0 0 50px;
+}
+.section1{
+    display: inline-block;
+    text-align: center;
+    height: 15vh;
+}
+.titulazo{
+    margin: -30px 0 0 0;
+    font-size: 4em;
+    color: white;
+}
+.punto{
+    margin: 0 0 0 50%;
+    height: 25px;
+    width: 25px;
+    background: #885DE8;
+    border-radius: 50px;
+}
+footer{
+    height: 10vh;
+    background: linear-gradient(rgb(17, 17, 17), rgb(42, 2, 61),rgb(42, 2, 61),rgb(42, 2, 61),rgb(42, 2, 61));
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 130px;
+    margin: 10px 0 0 0;
+}
+.social{
+    margin: 0px 15px 0 15px;
+    color: gray;
+    transition: 1s ease;
+}
+.social:hover, .social:focus{
+    color:white !important;
+    cursor: pointer;
+}
+.linea{
+    width: 1000px;
+    height: 1px;
+    background-color: rgb(116, 116, 116);
+    margin: 18px 0 0 0;
+}
+.text-footer{
+    color: rgb(102, 102, 102);
+    position: absolute;
+    right: 150px;
+    margin: 10px 0 0 0;
+}
